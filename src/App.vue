@@ -198,7 +198,7 @@ export default {
 
 <template>
   <header class="header">
-    <h3 class="title">Help The Pacman! - Djikstra Algorithm</h3>
+    <h3 class="title">Help Pacman! - Djikstra Algorithm</h3>
     <button class="button button--default" @click="execute()" v-if="!inProgress && !hasFinished">Start</button>
     <button class="button button--default"  v-else-if="inProgress" disabled>Executing...</button>
     <button class="button button--default"  v-else-if="!inProgress && hasFinished" @click="reset()">Reset</button>
